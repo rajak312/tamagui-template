@@ -3,10 +3,10 @@
     "strictNullChecks": true,
     "noUncheckedIndexedAccess": true,
     "paths": {
-      "app/*": ["./packages/app/*"],
-      "ui/*": ["./packages/ui/*"]
+      "app/*": ["./app/*"],
+      "ui/*": ["./ui/*"]
     }
   },
   "extends": "tsconfig.base",
-  "exclude": ["**/node_modules", "**/dist", "**/types", "apps/next/out", "apps/next/.next", "apps/next/.tamagui"]
+  "exclude": ["**/node_modules", "**/dist", "**/types", "platforms/next/out", "platforms/next/.next", "platforms/next/.tamagui"]
 }
