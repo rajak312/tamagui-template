@@ -8,5 +8,12 @@
     }
   },
   "extends": "tsconfig.base",
-  "exclude": ["**/node_modules", "**/dist", "**/types", "platforms/next/out", "platforms/next/.next", "platforms/next/.tamagui"]
+  "exclude": [
+    "**/node_modules",
+    "**/dist",
+    "**/types",
+    "platforms/next/out",
+    "platforms/next/.next",
+    "platforms/next/.tamagui"
+  ]
 }
