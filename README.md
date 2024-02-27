@@ -20,18 +20,15 @@ Many thanks to [@FernandoTheRojo](https://twitter.com/fernandotherojo) for the S
 
 ## 🗂 Folder layout
 
-The main apps are:
+The main platforms are:
 
 - `expo` (native)
 - `next` (web)
 
-- `packages` shared packages across apps
-  - `ui` includes your custom UI kit that will be optimized by Tamagui
-  - `app` you'll be importing most files from `app/`
-    - `features` (don't use a `screens` folder. organize by feature.)
-    - `provider` (all the providers that wrap the app, and some no-ops for Web.)
-
-You can add other folders inside of `packages/` if you know what you're doing and have a good reason to.
+- `ui` includes your custom UI kit that will be optimized by Tamagui
+- `app` you'll be importing most files from `app/`
+  - `features` (don't use a `screens` folder. organize by feature.)
+  - `provider` (all the providers that wrap the app, and some no-ops for Web.)
 
 ## 🏁 Start the app
 
@@ -69,7 +66,7 @@ yarn
 If you're installing a library with any native code, you must install it in `expo`:
 
 ```sh
-cd apps/expo
+cd platforms/expo
 yarn add react-native-reanimated
 cd ..
 yarn
